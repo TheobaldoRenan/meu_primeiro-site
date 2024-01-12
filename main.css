@@ -1,0 +1,170 @@
+/* Resetando pré-estilizações*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* personalizando cor de fundo da pagina*/
+
+body  {
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Orbitron', sans-serif;
+}
+
+input, textarea {
+    font-family: 'Orbitron', sans-serif;
+}
+
+/*personalizando a cor e o espassamento do cabeçalho*/
+
+header {
+    background-color: rgb(0, 162, 255);
+    padding: 16px 0;
+    color: black;
+}
+
+/*alterando a fonte dos H1 e H2 do cabeçalho*/
+
+header h1{
+    font-size: 52px;
+}
+
+section h2 {
+    font-weight: 100;
+    font-size: 46px ;
+    color:rgb(0, 162, 255) ;
+}
+
+section h3 {
+    font-weight: normal;
+    font-size: 32px ;
+}
+
+header h1, section h2, section h3, form button {
+    font-family: 'Rubik Doodle Shadow', system-ui;
+}
+
+/*personalizando a disposição do menu e sua caracteristica*/
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size:18px ;    
+}
+
+/*personalizando a cor do menu*/
+
+header nav li a {
+    color: aliceblue;    
+}
+
+/* configurando a ajuste de conteudo na tela*/
+
+.menu {
+    max-width: 1400px;
+    width: 100%;
+    margin:  0 auto;
+}
+
+/*distribuindo o titulo da pagina e o menu nas laterais e centralizando*/
+
+header .menu,
+section .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+/* personalizando a sessão about*/
+
+section {
+    padding: 40px;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section h3 {
+   margin-bottom: 32px ;
+
+}
+
+section p {
+    margin-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+section img {
+    margin-right: 32px;
+    margin-left: 32px;
+}
+
+/*colocando espaçamento entre as seçoes*/
+
+section {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+/* personalizando seção contato*/
+
+.logos img {
+    height: 38px;
+    margin-bottom: 16px;  
+}
+
+.logos li  {
+   display:flex; 
+   align-items: center;}
+
+#contact .menu {
+    display: block;
+}
+.contact-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* personalizar o formulario*/
+
+form input,form textarea, form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: rgb(0, 162, 255) ;
+    border: none;
+    font-size: 18px;
+    font-weight:600;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color:rgb(0, 38, 255) ;
+}
+
+input:focus, textarea:focus {
+    outline-color: chartreuse;
+}
+
+footer {
+    background-color: rgb(0, 162, 255);
+    color: white;
+    padding: 16px;
+    align-content: center;
+}
+
